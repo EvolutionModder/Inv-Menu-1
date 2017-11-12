@@ -202,4 +202,8 @@ class Main extends PluginBase implements Listener
         if (isset($this->inv[$player->getName()]))
             unset($this->inv[$player->getName()]);
     }
+    
+    public function onsetItem($inv, $chest){
+        //TODO
+    }
 }
